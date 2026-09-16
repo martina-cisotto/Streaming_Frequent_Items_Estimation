@@ -36,6 +36,7 @@ The script connects to a remote TCP socket stream (`algo.dei.unipd.it:<port>`). 
 42
 7
 ```
+---
 
 ### Requirements
 * Python 3.8+
@@ -45,13 +46,14 @@ Install dependencies:
 ```bash
 pip install pyspark
 ```
+---
 
 ### Execution
 Run the script via `spark-submit`:
 ```bash
 spark-submit main.py <N> <PHI> <EPSILON> <DELTA> <D> <W> <portExp>
 ```
-
+---
 
 ### Arguments
 
